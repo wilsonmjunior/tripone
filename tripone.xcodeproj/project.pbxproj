@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96BD9F762689283900CD80A1 /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 96BD9F742689283900CD80A1 /* viagens.json */; };
+		96CD4AA926892B7F00D8D0BB /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CD4AA826892B7F00D8D0BB /* Viagem.swift */; };
+		96CD4AAA26892B7F00D8D0BB /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CD4AA726892B7F00D8D0BB /* Dados.swift */; };
 		96F129B0268811A800B54594 /* triponeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F129AF268811A800B54594 /* triponeApp.swift */; };
 		96F129B2268811A800B54594 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F129B1268811A800B54594 /* ContentView.swift */; };
 		96F129B4268811AA00B54594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F129B3268811AA00B54594 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96BD9F742689283900CD80A1 /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viagens.json; sourceTree = "<group>"; };
+		96CD4AA726892B7F00D8D0BB /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		96CD4AA826892B7F00D8D0BB /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		96F129AC268811A800B54594 /* tripone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F129AF268811A800B54594 /* triponeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triponeApp.swift; sourceTree = "<group>"; };
 		96F129B1268811A800B54594 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +58,9 @@
 		96F129AE268811A800B54594 /* tripone */ = {
 			isa = PBXGroup;
 			children = (
+				96CD4AA726892B7F00D8D0BB /* Dados.swift */,
+				96CD4AA826892B7F00D8D0BB /* Viagem.swift */,
+				96BD9F742689283900CD80A1 /* viagens.json */,
 				96F129AF268811A800B54594 /* triponeApp.swift */,
 				96F129B1268811A800B54594 /* ContentView.swift */,
 				96F129B3268811AA00B54594 /* Assets.xcassets */,
@@ -126,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BD9F762689283900CD80A1 /* viagens.json in Resources */,
 				96F129B7268811AA00B54594 /* Preview Assets.xcassets in Resources */,
 				96F129B4268811AA00B54594 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				96F129B2268811A800B54594 /* ContentView.swift in Sources */,
+				96CD4AAA26892B7F00D8D0BB /* Dados.swift in Sources */,
+				96CD4AA926892B7F00D8D0BB /* Viagem.swift in Sources */,
 				96F129B0268811A800B54594 /* triponeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
