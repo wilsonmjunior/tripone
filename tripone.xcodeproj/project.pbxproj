@@ -10,6 +10,9 @@
 		96BD9F762689283900CD80A1 /* viagens.json in Resources */ = {isa = PBXBuildFile; fileRef = 96BD9F742689283900CD80A1 /* viagens.json */; };
 		96CD4AA926892B7F00D8D0BB /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CD4AA826892B7F00D8D0BB /* Viagem.swift */; };
 		96CD4AAA26892B7F00D8D0BB /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CD4AA726892B7F00D8D0BB /* Dados.swift */; };
+		96CD4AAE26892E5E00D8D0BB /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CD4AAD26892E5E00D8D0BB /* Header.swift */; };
+		96CD4AB12689427900D8D0BB /* CardViagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CD4AB02689427900D8D0BB /* CardViagem.swift */; };
+		96E72C652692316400C6ECAC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E72C642692316400C6ECAC /* MapView.swift */; };
 		96F129B0268811A800B54594 /* triponeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F129AF268811A800B54594 /* triponeApp.swift */; };
 		96F129B2268811A800B54594 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F129B1268811A800B54594 /* ContentView.swift */; };
 		96F129B4268811AA00B54594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F129B3268811AA00B54594 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 		96BD9F742689283900CD80A1 /* viagens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = viagens.json; sourceTree = "<group>"; };
 		96CD4AA726892B7F00D8D0BB /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
 		96CD4AA826892B7F00D8D0BB /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		96CD4AAD26892E5E00D8D0BB /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		96CD4AB02689427900D8D0BB /* CardViagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViagem.swift; sourceTree = "<group>"; };
+		96E72C642692316400C6ECAC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		96F129AC268811A800B54594 /* tripone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F129AF268811A800B54594 /* triponeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triponeApp.swift; sourceTree = "<group>"; };
 		96F129B1268811A800B54594 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +45,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96CD4AAC26892E0D00D8D0BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				96CD4AA826892B7F00D8D0BB /* Viagem.swift */,
+				96CD4AA726892B7F00D8D0BB /* Dados.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		96CD4AAF2689418000D8D0BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96CD4AAD26892E5E00D8D0BB /* Header.swift */,
+				96F129B1268811A800B54594 /* ContentView.swift */,
+				96CD4AB02689427900D8D0BB /* CardViagem.swift */,
+				96E72C642692316400C6ECAC /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		96F129A3268811A800B54594 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +84,10 @@
 		96F129AE268811A800B54594 /* tripone */ = {
 			isa = PBXGroup;
 			children = (
-				96CD4AA726892B7F00D8D0BB /* Dados.swift */,
-				96CD4AA826892B7F00D8D0BB /* Viagem.swift */,
+				96CD4AAF2689418000D8D0BB /* Views */,
+				96CD4AAC26892E0D00D8D0BB /* Models */,
 				96BD9F742689283900CD80A1 /* viagens.json */,
 				96F129AF268811A800B54594 /* triponeApp.swift */,
-				96F129B1268811A800B54594 /* ContentView.swift */,
 				96F129B3268811AA00B54594 /* Assets.xcassets */,
 				96F129B8268811AA00B54594 /* Info.plist */,
 				96F129B5268811AA00B54594 /* Preview Content */,
@@ -148,6 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E72C652692316400C6ECAC /* MapView.swift in Sources */,
+				96CD4AB12689427900D8D0BB /* CardViagem.swift in Sources */,
+				96CD4AAE26892E5E00D8D0BB /* Header.swift in Sources */,
 				96F129B2268811A800B54594 /* ContentView.swift in Sources */,
 				96CD4AAA26892B7F00D8D0BB /* Dados.swift in Sources */,
 				96CD4AA926892B7F00D8D0BB /* Viagem.swift in Sources */,
